@@ -227,23 +227,25 @@
                 <div class="col-md-7 col-sm-6">
                     <h4 class="widget-title">Send a message to us</h4>
                     <div class="contact-form">
-                        <p class="full-row">
-                            <label for="name-id">Your Name:</label>
-                            <input type="text" id="name-id" name="name-id">
-                        </p>
-                        <p class="full-row">
-                            <label for="email-id">Email:</label>
-                            <input type="text" id="email-id" name="email-id">
-                        </p>
-                        <p class="full-row">
-                            <label for="cell">Cell:</label>
-                            <input type="tel" id="cell" name="Cell">
-                        </p>
-                        <p class="full-row">
-                            <label for="message">Message:</label>
-                            <textarea name="message" id="message" rows="6"></textarea>
-                        </p>
-                        <input class="mainBtn" type="submit" name="" value="Send Message">
+                        <form name="contact" method="POST" data-netlify="true">
+                            <p class="full-row">
+                                <label for="name-id">Your Name:</label>
+                                <input type="text" id="name-id" name="name-id">
+                            </p>
+                            <p class="full-row">
+                                <label for="email-id">Email:</label>
+                                <input type="text" id="email-id" name="email-id">
+                            </p>
+                            <p class="full-row">
+                                <label for="cell">Cell:</label>
+                                <input type="tel" id="cell" name="Cell">
+                            </p>
+                            <p class="full-row">
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="message" rows="6"></textarea>
+                            </p>
+                            <input class="mainBtn" type="submit" name="" value="Send Message">
+                        </form>
                     </div>
                 </div> <!-- /.col-md-3 -->
                 <div class="col-md-5 col-sm-6">
