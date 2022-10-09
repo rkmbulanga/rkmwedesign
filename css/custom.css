@@ -1,0 +1,53 @@
+.BannerImage{
+    width: 100%;
+    height: auto;
+}
+
+.btnGetInTouch li{
+    list-style: none;
+    color: white !important;
+    background-color: #1D71AF;
+    border-radius: 8px;
+    padding: 12px;
+    width: 15%;
+   
+}
+
+.btnGetInTouch li a{
+    color: white !important;
+}
+.btnGetInTouch li:hover{
+  background-color: #2883c4;
+  cursor: pointer;
+}
+textarea{
+    resize: vertical;
+}
+.mainBtn{
+    border-radius: 8px;
+}
+input[type=text],input[type=email],input[type=tel],textarea{
+    border-radius:8px ;
+}
+
+.mylogo{
+    width: 60%;
+    height: auto;
+}
+
+.ql{
+    color:#C0B200 ;
+    font-weight: bolder;
+}
+.qlh:hover{
+    color:#C0B200 ;
+}
+.service-header:hover{
+    box-shadow: 0 4px 8px 0 #BCB035, 0 6px 20px 0 #BCB035; 
+    cursor: pointer;
+}
+li a:hover{
+   color: #BCB035 !important;
+    cursor: pointer;
+}
+
